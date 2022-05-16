@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mem Slider</title>
-    <link rel="style/stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <div class="slider">
+            <input class="slide" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="images">
+                <img src="./images/1.jpeg">
+                <h2>Гав</h2>
+            </div>
+            <input class="slide" type="radio" id="slide-2" name="slide" aria-hidden="true"
+                hidden="">
+            <div class="images">
+                <img src="./images/2.jpeg">
+                <h2>Будет веселоБ говорили они</h2>
+            </div>
+            <input class="slide" type="radio" id="slide-3" name="slide" aria-hidden="true"
+                hidden="">
+            <div class="images">
+                <img src="./images/3.jpeg">
+                <h2>здксь подпись</h2>
+            </div>
+            <input class="slide" type="radio" id="slide-4" name="slide" aria-hidden="true"
+                hidden="">
+            <div class="images">
+                <img src="./images/4.jpeg">
+                <h2>Не совершай ошибку</h2>
+            </div>
+            
+            <ol class="navigation">
+                <li>
+                    <label for="slide-1" class="slider-bullet">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slider-bullet">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slider-bullet">•</label>
+                </li>
+                <li>
+                    <label for="slide-4" class="slider-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
 </body>
+
 </html>
